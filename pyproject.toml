@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "premier-league-api"
+version = "0.1.0"
+description = "Projeto de ETL da API com dados da Premiere League temporada 23/24"
+authors = ["vorges-data <vinicius.jborges36@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-bigquery = "^3.25.0"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
