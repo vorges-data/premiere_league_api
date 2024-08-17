@@ -13,4 +13,5 @@ def prepare_dataframe(data, fields, nested_fields, repeatable_fields):
     all_fields = fields + nested_fields + repeatable_fields
     column_names = [col.replace('.', '__') for col in all_fields]
     existing_columns = [col for col in column_names if col in df.columns]
-    return df[existing_columns]
+    df = df[existing_columns]
+    return df

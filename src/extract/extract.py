@@ -6,6 +6,7 @@ def fetch_data(path, params, headers=HEADERS):
     while True:
         response = requests.get(f"{API_URL}/{path}", headers=headers, params=params)
         data = response.json()
+        print(response.text)
         if 'response' in data and data['response']:
             all_data.extend(data['response'])
             if 'page' in params:
