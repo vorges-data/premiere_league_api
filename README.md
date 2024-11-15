@@ -4,7 +4,7 @@ Etapas Dados da Premiere League:
 1. Extração dos Dados da API Sport ✅
 2. Carregamento no BigQuery ✅
 3. Modelagem SQL ✅
-4. Construção medidas DAX no Power BI ⌛
+4. Construção medidas DAX no Power BI ✅
 5. Design com Figma ⌛
 6. Análises ⌛
 
